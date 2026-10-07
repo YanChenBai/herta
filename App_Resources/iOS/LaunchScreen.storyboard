@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" targetRuntime="iOS.CocoaTouch" useAutolayout="YES" launchScreen="YES" initialViewController="herta-launch">
+  <scenes><scene sceneID="launch-scene"><objects><viewController id="herta-launch" sceneMemberID="viewController"><view key="view" id="launch-view"><rect key="frame" x="0.0" y="0.0" width="390" height="844"/><color key="backgroundColor" red="0.063" green="0.059" blue="0.098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/></view></viewController><placeholder placeholderIdentifier="IBFirstResponder" id="first" sceneMemberID="firstResponder"/></objects></scene></scenes>
+</document>

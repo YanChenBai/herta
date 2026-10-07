@@ -1,0 +1,17 @@
+android {
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 35
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+}
+// NativeScript 元数据任务声明了整个 javac 目录作为输入；仅在设备测试编排中排序。
+tasks.matching { it.name == "buildMetadata" }.configureEach {
+    mustRunAfter(tasks.matching { it.name.contains("AndroidTest") && (it.name.endsWith("JavaWithJavac") || it.name.endsWith("Kotlin")) })
+}
+dependencies {
+    implementation "androidx.media3:media3-exoplayer:1.8.0"
+    implementation "androidx.media3:media3-exoplayer-hls:1.8.0"
+    androidTestImplementation "androidx.test:runner:1.6.2"
+    androidTestImplementation "androidx.test.ext:junit:1.2.1"
+}

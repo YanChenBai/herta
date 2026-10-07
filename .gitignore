@@ -1,0 +1,15 @@
+node_modules
+dist
+.ns-vite-build
+platforms
+hooks
+*.log
+.DS_Store
+!.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example

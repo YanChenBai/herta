@@ -1,0 +1,23 @@
+export const icons = {
+  add: "\ue145",
+  close: "\ue5cd",
+  rotate: "\ue1c1",
+  expand: "\ue5cf",
+  layout: "\ue8f1",
+  workspaces: "\ue871",
+  volume: "\ue050",
+  mute: "\ue04f",
+  mixer: "\ue429",
+  live: "\ue639",
+  rooms: "\ue867",
+  cookie: "\ueaac",
+  check: "\ue5ca",
+  remove: "\ue872",
+  danmaku: "\ue0bf",
+  edit: "\ue3c9",
+  drag: "\ue945",
+  hide: "\ue5ce",
+  headphones: "\ue310",
+  refresh: "\ue5d5",
+} as const;
+export type IconName = keyof typeof icons;
